@@ -1,5 +1,5 @@
 from flask import Flask
-import fireball123.html*
+from flask import Flask, request, redirect, render_template, url_for
 app = Flask(__name__)
 
 @app.route('/')
