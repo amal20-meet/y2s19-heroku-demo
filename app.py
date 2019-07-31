@@ -1,4 +1,5 @@
 from flask import Flask
+import fireball123.html*
 app = Flask(__name__)
 
 @app.route('/')
